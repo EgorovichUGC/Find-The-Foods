@@ -174,7 +174,7 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
           end
         end)
 
-        ugc:Toggle("Sandwich "click on lunchbox"", false, function(bool)
+        ugc:Toggle("Sandwich (click on lunchbox)", false, function(bool)
 
           loopActive = bool
 
