@@ -225,4 +225,21 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
           end
         end)
 
+ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
+
+          loopActive = bool
+
+          if loopActive then
+            while loopActive == true do
+				
+                game.Players.LocalPlayer.Character:PivotTo(CFrame.new(479.1798400878906, 2.9789047241210938, -62.18124771118164))
+				
+              wait(0)
+              if loopActive == false then
+                break
+              end
+            end
+          end
+        end)
+
 -- BY Egorovich
