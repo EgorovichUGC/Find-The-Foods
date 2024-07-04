@@ -174,7 +174,7 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
           end
         end)
 
-        ugc:Toggle("Sandwich (click on lunchbox)", false, function(bool)
+        ugc:Toggle("Sandwich (Click on lunchbox)", false, function(bool)
 
           loopActive = bool
 
@@ -191,7 +191,7 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
           end
         end)
 
-        ugc:Toggle("Hot Chocolate (click on the candle)", false, function(bool)
+        ugc:Toggle("Hot Chocolate (Click on the candle)", false, function(bool)
 
           loopActive = bool
 
@@ -199,6 +199,23 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
             while loopActive == true do
 				
                  game.Players.LocalPlayer.Character:PivotTo(CFrame.new(377.683258, 6.80973721, -399.419769, 0.955018342, 0, 0.296546966, 0, 1, 0, -0.296546966, 0, 0.955018342))
+				
+              wait(0)
+              if loopActive == false then
+                break
+              end
+            end
+          end
+        end)
+
+        ugc:Toggle("Door Code(He's in the well)", false, function(bool)
+
+          loopActive = bool
+
+          if loopActive then
+            while loopActive == true do
+				
+                 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(672.815002, 4.84172678, 114.898544, -0.418837786, -0.0148607418, -0.907939553, 2.91243196e-05, 0.99986583, -0.0163787864, 0.908061147, -0.00688649621, -0.418781161))
 				
               wait(0)
               if loopActive == false then
