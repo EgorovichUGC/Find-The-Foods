@@ -105,7 +105,7 @@ end
 
 
 				local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/diaslo/EgorchikHichimiroProject/main/discord.lua"))()
-				local win = discord:Window("BY EGOROBICH")
+				local win = discord:Window("BY EGOROVICH")
 				local serv = win:Server("Find The Foods", "http://www.roblox.com/asset/?id=17871796559")
 				local ugc = serv:Channel("Main")
 
@@ -183,6 +183,23 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
 			
                game.Players.LocalPlayer.Character:PivotTo(CFrame.new(162.391, 6.85615, 545.047))
 			
+              wait(0)
+              if loopActive == false then
+                break
+              end
+            end
+          end
+        end)
+
+        ugc:Toggle("Hot Chocolate (click on the candle)", false, function(bool)
+
+          loopActive = bool
+
+          if loopActive then
+            while loopActive == true do
+				
+                 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(377.683258, 6.80973721, -399.419769, 0.955018342, 0, 0.296546966, 0, 1, 0, -0.296546966, 0, 0.955018342))
+				
               wait(0)
               if loopActive == false then
                 break
