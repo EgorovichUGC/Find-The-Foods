@@ -208,7 +208,7 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
           end
         end)
 
-        ugc:Toggle("Door Code(He's in the well)", false, function(bool)
+        ugc:Toggle("Door Code (He's in the well)", false, function(bool)
 
           loopActive = bool
 
