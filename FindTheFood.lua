@@ -1,4 +1,3 @@
--- the code is extremely messy because something in the code editor fucked it up all at once and for some reason removed indents in some parts of the code while kept indents in some other parts of the code LOL
 local LOAD_TIME = tick()
 local queueonteleport = queue_on_teleport or queueonteleport
 local setclipboard = toclipboard or setrbxclipboard or setclipboard
@@ -12,7 +11,6 @@ local getnamecallmethod = get_namecall_method or getnamecallmethod
 local setnamecallmethod = set_namecall_method or setnamecallmethod
 local restorefunction = restorefunction or restoreclosure or restorefunc
 
--- // cloneref function for exploits that dont support it
 local a = Instance.new("Part")
 for b, c in pairs(getreg()) do
 	if type(c) == "table" and #c then
@@ -43,7 +41,7 @@ if not cloneref then
 end
 
 getrenv().Visit = cloneref(game:GetService("Visit"))
-getrenv().MarketplaceService = cloneref(game:GetService("MarketplaceService")) -- // theres a reason why thats referenced in the roblox environment
+getrenv().MarketplaceService = cloneref(game:GetService("MarketplaceService"))
 getrenv().HttpRbxApiService = cloneref(game:GetService("HttpRbxApiService"))
 getrenv().HttpService = cloneref(game:GetService("HttpService"))
 local CoreGui = cloneref(game:GetService("CoreGui"))
