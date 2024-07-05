@@ -342,7 +342,7 @@ local function NERMBF_fake_script()
 end
 coroutine.wrap(NERMBF_fake_script)()
 				
-              wait(0)
+              wait(9999999999999999999999999)
               if loopActive == false then
                 break
               end
