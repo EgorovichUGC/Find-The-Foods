@@ -242,4 +242,19 @@ ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
           end
         end)
 
+        local players = serv:Channel("AntiAFKEgor")
+				players:Toggle("Anti AFK", false, function(bool)
+					if bool == true then
+						Players.LocalPlayer.Idled:connect(function()
+							VirtualUser:CaptureController()
+							VirtualUser:ClickButton2(Vector2.new())
+						end)
+					end
+				end)
+				local signal
+				players:Seperator()
+			end)
+                 end
+            end)
+
 -- BY Egorovich
