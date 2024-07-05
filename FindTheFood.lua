@@ -164,7 +164,7 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
 			
 
 
-              wait(0)
+              wait(999999999999999999999999)
               if loopActive == false then
                 break
               end
