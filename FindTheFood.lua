@@ -242,7 +242,7 @@ ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
           end
         end)
 
-         ugc:Toggle("Auto Cancel", false, function(bool)
+         ugc:Toggle("Anti AFK", false, function(bool)
 
           loopActive = bool
 
@@ -278,7 +278,7 @@ Title.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 295, 0, 16)
 Title.Font = Enum.Font.GothamBold
-Title.Text = "Rice Anti-Afk"
+Title.Text = "Anti AFK"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 12.000
@@ -318,31 +318,6 @@ Activate.MouseButton1Down:connect(function()
 	end)
 end)
 
-
-UICorner.Parent = Activate
-
-OpenClose.Name = "Open/Close"
-OpenClose.Parent = Rice
-OpenClose.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-OpenClose.Position = UDim2.new(0.353924811, 0, 0.921739101, 0)
-OpenClose.Size = UDim2.new(0, 247, 0, 35)
-OpenClose.Font = Enum.Font.GothamBold
-OpenClose.Text = "Open/Close"
-OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
-OpenClose.TextSize = 14.000
-
-UICorner_2.Parent = OpenClose
-
-local function NERMBF_fake_script() -- OpenClose.LocalScript 
-	local script = Instance.new('LocalScript', OpenClose)
-
-	local frame = script.Parent.Parent.Main
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		frame.Visible = not frame.Visible
-	end)
-end
-coroutine.wrap(NERMBF_fake_script)()
 				
               wait(0)
               if loopActive == false then
