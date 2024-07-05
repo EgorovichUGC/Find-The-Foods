@@ -181,7 +181,7 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
 			
                game.Players.LocalPlayer.Character:PivotTo(CFrame.new(162.391, 6.85615, 545.047))
 			
-              wait(0)
+              wait(1)
               if loopActive == false then
                 break
               end
@@ -198,7 +198,7 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
 				
                  game.Players.LocalPlayer.Character:PivotTo(CFrame.new(377.683258, 6.80973721, -399.419769, 0.955018342, 0, 0.296546966, 0, 1, 0, -0.296546966, 0, 0.955018342))
 				
-              wait(0)
+              wait(1)
               if loopActive == false then
                 break
               end
@@ -215,7 +215,7 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-20.366374969482422, 2.978
 				
                  game.Players.LocalPlayer.Character:PivotTo(CFrame.new(672.815002, 4.84172678, 114.898544, -0.418837786, -0.0148607418, -0.907939553, 2.91243196e-05, 0.99986583, -0.0163787864, 0.908061147, -0.00688649621, -0.418781161))
 				
-              wait(0)
+              wait(1)
               if loopActive == false then
                 break
               end
@@ -232,7 +232,7 @@ ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
 						
                 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(479.1798400878906, 2.9789047241210938, -62.18124771118164))
 						
-              wait(0)
+              wait(1)
               if loopActive == false then
                 break
               end
