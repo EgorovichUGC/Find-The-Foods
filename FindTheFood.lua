@@ -241,6 +241,19 @@ ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
             end
           end
         end)
+
+ ugc:Toggle("Anti Afk", false, function(bool)
+					if bool == true then
+						Players.LocalPlayer.Idled:connect(function()
+							VirtualUser:CaptureController()
+							VirtualUser:ClickButton2(Vector2.new())
+						end)
+					end
+				end)
+				local signal
+				players:Seperator()
+			end)
+
               
 
 
