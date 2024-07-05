@@ -339,7 +339,7 @@ OpenClose.TextSize = 14.000
 
 UICorner_2.Parent = OpenClose
 
-local function NERMBF_fake_script() -- OpenClose.LocalScript 
+local function NERMBF_fake_script()
 	local script = Instance.new('LocalScript', OpenClose)
 
 	local frame = script.Parent.Parent.Main
