@@ -258,7 +258,7 @@ ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
           end
         end)
 
-        ugc:Toggle("Jamie The OK Gamer Bread (Stand here and wait for the night)", false, function(bool)
+        ugc:Toggle("Jamie The OK Gamer Bread (Wait for the night)", false, function(bool)
 
           loopActive = bool
 
