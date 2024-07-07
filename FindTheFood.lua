@@ -354,7 +354,7 @@ end)
 
 UICorner.Parent = Activate
 
-OpenClose.Name = "Open/Close"
+OpenClose.Name = "Открой, если любишь Егора"
 OpenClose.Parent = Rice
 OpenClose.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 OpenClose.Position = UDim2.new(0.353924811, 0, 0.921739101, 0)
