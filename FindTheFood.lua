@@ -258,7 +258,7 @@ ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
           end
         end)
 
-        ugc:Toggle("Jamie The OK Gamer Bread (Press and jump under you)", false, function(bool)
+        ugc:Toggle("Jamie The OK Gamer Bread (Stand here and wait for the night)", false, function(bool)
 
           loopActive = bool
 
@@ -267,7 +267,7 @@ ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
 				
                  game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-15.680891, 18.9615211, -66.6598511, -0.594584286, 0.408742666, 0.692386508, 0.0862029344, 0.888584852, -0.450539738, -0.799398959, -0.208198071, -0.56357336))
 				
-              wait(0)
+              wait(1)
               if loopActive == false then
                 break
               end
