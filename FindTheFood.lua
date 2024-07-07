@@ -173,6 +173,12 @@ wait(1)
 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(203.753448, 3.27242517, -362.003296, -0.221301436, 0, 0.975205719, 0, 1, 0, -0.975205719, 0, -0.221301436))
 wait(1)
 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(241.820648, 0.823066652, -78.588768, 0.984797478, 0, 0.173706517, 0, 1, 0, -0.173706517, 0, 0.984797478))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(99.6996536, 4.15484905, -173.598755, 1, 0, 0, 0, 1, 0, 0, 0, 1))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(859.276733, 94.6669083, -218.137115, 0.979993939, 0.081413351, -0.181614399, -4.75645065e-05, 0.912605107, 0.408842146, 0.199027419, -0.400654197, 0.894351304))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(819.591125, 8.26438427, -256.700134, 0.129549742, 0, 0.991572917, 0, 1, 0, -0.991572917, 0, 0.129549742))
 			
 
 
@@ -245,6 +251,23 @@ ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
                 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(479.1798400878906, 2.9789047241210938, -62.18124771118164))
 						
               wait(1)
+              if loopActive == false then
+                break
+              end
+            end
+          end
+        end)
+
+        ugc:Toggle("Jamie The OK Gamer Bread (WAIT)", false, function(bool)
+
+          loopActive = bool
+
+          if loopActive then
+            while loopActive == true do
+				
+                 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-15.680891, 18.9615211, -66.6598511, -0.594584286, 0.408742666, 0.692386508, 0.0862029344, 0.888584852, -0.450539738, -0.799398959, -0.208198071, -0.56357336))
+				
+              wait(0)
               if loopActive == false then
                 break
               end
