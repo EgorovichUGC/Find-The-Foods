@@ -185,6 +185,19 @@ wait(1)
 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(887.706299, 5.82623196, -198.069092, -0.47929576, -0.367395103, 0.797054768, -0.377358854, 0.906201243, 0.190786615, -0.792386174, -0.209332466, -0.572978199))
 wait(1)
 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(108.61422, 7.2303977, 484.595001, 0.236668438, 0.293560445, -0.92618078, -0.373850465, 0.907383204, 0.192071781, 0.896785617, 0.300795794, 0.324496657))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(322.968933, 53.7296524, -589.022095, 0.962403417, 0.268195808, -0.0430197865, -0.243789494, 0.922718406, 0.298592329, 0.119776353, -0.276878536, 0.953410685))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(256.278778, 3.81349659, -147.477371, -0.0490894765, 0, 0.998794734, 0, 1, 0, -0.998794734, 0, -0.0490894765))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(371.127228, 0.153217167, -15.1696987, 0.967839956, 0, -0.251566827, 0, 1, 0, 0.251566827, 0, 0.967839956))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(321.938568, 6.98346663, -8.59366703, 1, 0, 0, 0, 1, 0, 0, 0, 1))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(413.590027, 44.1727066, -585.848267, 0.992376745, -0.11792668, -0.0358010717, 5.52088022e-06, 0.290538251, -0.956863403, 0.123241305, 0.949568748, 0.288324058))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(479.965912, 0.698975086, 78.4037628, 0.993209839, -0, -0.116336726, 0, 1, -0, 0.116336726, 0, 0.993209839))
+
 
 
 
@@ -281,6 +294,23 @@ ugc:Toggle("Taco (Teleport to Door)", false, function(bool)
           end
         end)
 
+
+ugc:Toggle("Croissant (write to chat Croissant)", false, function(bool)
+
+          loopActive = bool
+
+          if loopActive then
+            while loopActive == true dо
+			
+                 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(757.272278, 1.97743845, 184.826187, 0.0848144591, 0.0260658115, 0.996055841, -0.293707401, 0.955895364, -5.58793545e-06, -0.952125311, -0.292548507, 0.0887294412))
+			
+              wait(0)
+              if loopActive == false then
+                break
+              end
+            end
+          end
+        end)
                  ugc:Toggle("Anti Afk", false, function(bool)
 
           loopActive = bool
