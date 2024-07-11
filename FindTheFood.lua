@@ -297,11 +297,11 @@ ugc:Toggle("Croissant (write to chat Croissant)", false, function(bool)
           loopActive = bool
 
           if loopActive then
-            while loopActive == true dо
+            while loopActive == true do
 			
                  game.Players.LocalPlayer.Character:PivotTo(CFrame.new(757.272278, 1.97743845, 184.826187, 0.0848144591, 0.0260658115, 0.996055841, -0.293707401, 0.955895364, -5.58793545e-06, -0.952125311, -0.292548507, 0.0887294412))
 			
-              wait(0)
+              wait(1)
               if loopActive == false then
                 break
               end
