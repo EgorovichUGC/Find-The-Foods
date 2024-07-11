@@ -198,9 +198,6 @@ game.Players.LocalPlayer.Character:PivotTo(CFrame.new(413.590027, 44.1727066, -5
 wait(1)
 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(479.965912, 0.698975086, 78.4037628, 0.993209839, -0, -0.116336726, 0, 1, -0, 0.116336726, 0, 0.993209839))
 
-
-
-
               wait(999999999999999999999999)
               if loopActive == false then
                 break
@@ -311,7 +308,8 @@ ugc:Toggle("Croissant (write to chat Croissant)", false, function(bool)
             end
           end
         end)
-                 ugc:Toggle("Anti Afk", false, function(bool)
+
+ugc:Toggle("Anti Afk", false, function(bool)
 
           loopActive = bool
 
