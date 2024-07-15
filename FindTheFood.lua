@@ -338,7 +338,7 @@ ugc:Toggle("Tuna and Onion Pizza (click on the fish)", false, function(bool)
 				
 		game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-609.632629, -322.605316, 338.543335, -0.144600883, 0.662146568, -0.735291243, 0.230609715, 0.745189369, 0.625709236, 0.962242484, -0.0790871829, -0.260452479))
 				
-              wait(0)
+              wait(2)
               if loopActive == false then
                 break
               end
