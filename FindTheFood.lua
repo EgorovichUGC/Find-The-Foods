@@ -205,6 +205,18 @@ wait(1)
 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-637.214294, -284.238739, 505.634644, -0.925576925, 0.369477332, -0.08242511, 0.359914839, 0.791388214, -0.494131535, -0.117340147, -0.487022728, -0.865471005))
 wait(1)
 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-539.387207, -326.069519, 217.526566, -0.547041237, -0.346993297, -0.761801541, -0.329068601, 0.925917685, -0.185446113, 0.769714117, 0.149238303, -0.620699763))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(102.493019, 5.03811932, 0.290857881, -0.810159981, -0.0923941955, -0.5788818, 0.114739753, 0.94340682, -0.311156571, 0.574870169, -0.318507373, -0.753709197))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(375.477295, 60.922245, 296.707306, -0.272779763, -0.266934216, 0.924303651, -0.555624485, 0.828029633, 0.0751553774, -0.78541249, -0.49306488, -0.374184966))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-716.925049, -324.629272, 48.8022995, -0.600378633, 0.240224957, 0.762782812, 0.371531069, 0.928420544, 3.87579203e-05, -0.708173871, 0.283420742, -0.646654844))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(417.396851, 4.20500422, -407.339966, 0.906636178, 0.306441605, 0.290007383, -0.218982428, 0.929308355, -0.297376394, -0.360634744, 0.206105664, 0.909649909))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-645.368408, -326.070465, 225.96051, 0.632012725, -0.717888951, 0.291882575, 0.651715159, 0.696157634, 0.301051438, -0.419317782, -4.40627337e-05, 0.907839537))
+wait(1)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-709.096619, -255.272324, 75.1061325, -0.974945426, -0.145292193, -0.168441668, 0.210675925, -0.846148014, -0.489540815, -0.0713995099, -0.51276195, 0.855557323))
 
               wait(999999999999999999999999)
               if loopActive == false then
@@ -310,6 +322,23 @@ ugc:Toggle("Croissant (write to chat Croissant)", false, function(bool)
                  game.Players.LocalPlayer.Character:PivotTo(CFrame.new(757.272278, 1.97743845, 184.826187, 0.0848144591, 0.0260658115, 0.996055841, -0.293707401, 0.955895364, -5.58793545e-06, -0.952125311, -0.292548507, 0.0887294412))
 			
               wait(1)
+              if loopActive == false then
+                break
+              end
+            end
+          end
+        end)
+
+ugc:Toggle("Tuna and Onion Pizza (click on the fish)", false, function(bool)
+
+          loopActive = bool
+
+          if loopActive then
+            while loopActive == true do
+				
+		game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-609.632629, -322.605316, 338.543335, -0.144600883, 0.662146568, -0.735291243, 0.230609715, 0.745189369, 0.625709236, 0.962242484, -0.0790871829, -0.260452479))
+				
+              wait(0)
               if loopActive == false then
                 break
               end
